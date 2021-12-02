@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Age Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <form>
+  	<div class="base">
+  		<div class="enter">
+  		<h4>Age Calculator</h4>
+  	</div>
+  <div id="error"></div>
+  <div class="block">
+  	<p class="title">Date</p>
+  	<input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required/>
+  </div>
+  <div class="block">
+  	<p class="title">Month</p>
+    <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" required/>
+  </div>
+  <div class="block">
+  	<p class="title">Year</p>
+    <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4" required/>
+  </div>
+  </div>
+  <div class="base">
+  	<div class="enter">
+    <input type="button" name="submit" value="Submit" onclick="age()" />
+    </div>
+  </div>
+    <div id="age"></div>
+  </form>
+</div>
+<script type="text/javascript" src="js/app.js"></script>
+<body>
+<html>
